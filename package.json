@@ -1,9 +1,10 @@
 {
   "name": "macos-plist",
-  "description": "Mac OS X Plist parser/builder for Node.js and browsers",
+  "description": "macOS Plist parser/builder for Node.js and browsers",
   "version": "3.0.2",
-  "author": "Nathan Rajlich <nathan@tootallnate.net>",
+  "author": "YJSoft <yjsoft@yjsoft.pe.kr>",
   "contributors": [
+    "Nathan Rajlich <nathan@tootallnate.net>",
     "Hans Huebner <hans.huebner@gmail.com>",
     "Pierre Metrailler",
     "Mike Reinstein <reinstein.mike@gmail.com>",

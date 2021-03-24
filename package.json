@@ -1,7 +1,7 @@
 {
   "name": "macos-plist",
   "description": "macOS Plist parser/builder for Node.js and browsers",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "author": "YJSoft <yjsoft@yjsoft.pe.kr>",
   "contributors": [
     "Nathan Rajlich <nathan@tootallnate.net>",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/node-plist.git"
+    "url": "git://github.com/YJSoft/macos-plist.git"
   },
   "license": "MIT",
   "keywords": [

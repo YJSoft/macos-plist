@@ -20,13 +20,13 @@ and vice-versa.
 Install using `npm`:
 
 ``` bash
-$ npm install --save plist
+$ npm install --save macos-plist
 ```
 
 Then `require()` the _plist_ module in your file:
 
 ``` js
-var plist = require('plist');
+var plist = require('macos-plist');
 
 // now use the `parse()` and `build()` functions
 var val = plist.parse('<plist><string>Hello World!</string></plist>');
@@ -56,7 +56,7 @@ Parsing a plist from filename:
 
 ``` javascript
 var fs = require('fs');
-var plist = require('plist');
+var plist = require('macos-plist');
 
 var obj = plist.parse(fs.readFileSync('myPlist.plist', 'utf8'));
 console.log(JSON.stringify(obj));
@@ -65,7 +65,7 @@ console.log(JSON.stringify(obj));
 Parsing a plist from string payload:
 
 ``` javascript
-var plist = require('plist');
+var plist = require('macos-plist');
 
 var xml =
   '<?xml version="1.0" encoding="UTF-8"?>' +
@@ -103,7 +103,7 @@ Given an existing JavaScript Object, you can turn it into an XML document
 that complies with the plist DTD:
 
 ``` javascript
-var plist = require('plist');
+var plist = require('macos-plist');
 
 var json = [
   "metadata",

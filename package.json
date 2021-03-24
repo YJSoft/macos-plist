@@ -32,8 +32,7 @@
   "devDependencies": {
     "browserify": "^16.5.2",
     "mocha": "^8.3.2",
-    "multiline": "^1.0.2",
-    "zuul": "^3.12.0"
+    "multiline": "^1.0.2"
   },
   "scripts": {
     "test": "make test"
